@@ -112,7 +112,7 @@ VALUES('Andy Ng','M','20','12544262','Andyng@gmail.com')
 
 
     if (mysqli_query($conn, $sql)) {
-        echo "Insert sucessfully event";
+        echo "Insert sucessfully userinformation";
     } else {
         echo "Error Insert data:" . mysqli_error($conn);
     }
