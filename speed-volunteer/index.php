@@ -179,7 +179,7 @@
             <div class="about-move">
               <div class="services-details">
                 <div class="single-services">
-                  <h4><a href="<?php echo BASEURL;?>/elderly-ccaring/">Elderly caring</a></h4>
+                  <h4><a href="<?php echo BASEURL;?>/elderly-caring/">Elderly caring</a></h4>
                 </div>
               </div>
               <!-- end about-details -->

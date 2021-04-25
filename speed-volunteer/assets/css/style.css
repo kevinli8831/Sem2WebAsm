@@ -47,3 +47,7 @@ body, p{
 	padding-bottom: 50px; 
 	background-color: rgba(220,199,170, 0.95);
 }
+.padding-top {
+	padding-top: 170px; !important;
+	padding-bottom: 50px;!important;
+}

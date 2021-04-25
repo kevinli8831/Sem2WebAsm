@@ -6,7 +6,7 @@
         <p>Want to discuss something?</p>
       </div>
       <div class="col-sm-4 col-xs-12">
-        <a href="<?php echo BASEURL;?>/speed-volunteer/contact-us/" class="ready-btn" style="margin-top: 0">Contact us</a>
+        <a href="<?php echo BASEURL;?>/contact-us/" class="ready-btn" style="margin-top: 0">Contact us</a>
       </div>
     </div>
   </div>
