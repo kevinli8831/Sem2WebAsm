@@ -1,0 +1,49 @@
+/* 
+
+=> colors
+
+	Slate gray: #687A8F
+	Cadmium orange: #F7882F
+	Saffron: #F7C331
+	Tan: #DCC7AA
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body, p{
+    color: #444;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.single-services h4 a{
+	color: #DCC7AA;
+}
+
+.text-orange{
+	color: #F7882F;
+}
+
+#cta{
+	background: #F7882F;
+	padding: 50px 0;
+}
+
+#cta p{
+	color: #fff;
+	font-size: 25px;
+	margin-bottom: 0;
+	margin-top: 12px;
+}
+
+.page-header{
+	background: url('../img/bg1.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.page-header .overlay{
+	padding-top: 170px; 
+	padding-bottom: 50px; 
+	background-color: rgba(220,199,170, 0.95);
+}

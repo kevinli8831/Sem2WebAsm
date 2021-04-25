@@ -1,0 +1,57 @@
+Options +FollowSymLinks
+Options -Multiviews
+RewriteEngine On
+
+# main pages
+RewriteRule ^/$ index.php
+
+RewriteRule ^about-us/$ about-us.php
+RewriteRule ^about-us$ about-us.php
+
+RewriteRule ^new-services-and-courses/$ new-services-and-courses.php
+RewriteRule ^new-services-and-courses$ new-services-and-courses.php
+
+RewriteRule ^elderly-caring/$ elderly-caring.php
+RewriteRule ^elderly-caring$ elderly-caring.php
+
+RewriteRule ^mental-health-caring-license/$ mental-health-caring-license.php
+RewriteRule ^mental-health-caring-license$ mental-health-caring-license.php
+
+RewriteRule ^campus-disinfection/$ campus-disinfection.php
+RewriteRule ^campus-disinfection$ campus-disinfection.php
+
+RewriteRule ^youth-services/$ youth-services.php
+RewriteRule ^youth-services$ youth-services.php
+
+RewriteRule ^kids-training/$ kids-training.php
+RewriteRule ^kids-training$ kids-training.php
+
+RewriteRule ^teens-training/$ teens-training.php
+RewriteRule ^teens-training$ teens-training.php
+
+RewriteRule ^volunteer-training/$ volunteer-training.php
+RewriteRule ^volunteer-training$ volunteer-training.php
+
+RewriteRule ^welling-for-youths/$ welling-for-youths.php
+RewriteRule ^welling-for-youths$ welling-for-youths.php
+
+RewriteRule ^joyful-tutors-training-courses/$ joyful-tutors-training-courses.php
+RewriteRule ^joyful-tutors-training-courses$ joyful-tutors-training-courses.php
+
+RewriteRule ^elderly-thought/$ elderly-thought.php
+RewriteRule ^elderly-thought$ elderly-thought.php
+
+RewriteRule ^welling-and-activities-for-elders/$ welling-and-activities-for-elders.php
+RewriteRule ^welling-and-activities-for-elders$ welling-and-activities-for-elders.php
+
+RewriteRule ^what-is-dementia/$ what-is-dementia.php
+RewriteRule ^what-is-dementia$ what-is-dementia.php
+
+RewriteRule ^life-education/$ life-education.php
+RewriteRule ^life-education$ life-education.php
+
+RewriteRule ^elderly-boxing-class/$ elderly-boxing-class.php
+RewriteRule ^elderly-boxing-class$ elderly-boxing-class.php
+
+RewriteRule ^contact-us/$ contact-us.php
+RewriteRule ^contact-us$ contact-us.php
