@@ -10,7 +10,7 @@ $_SESSION['admin']=$admin;
 if(isset($password))
 $_SESSION['password']=$password;
 
-
+$_SESSION['adminStatus']=false;
 
 $dbname="";
 $servername="localhost";
@@ -131,19 +131,7 @@ VALUES('Andy Ng','M','20','12544262','Andyng@gmail.com')
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-if(($_SESSION['admin']=='admin') || ($_SESSION['password']!=='pass') )
+if(($_SESSION['admin']!=='admin') || ($_SESSION['password']!=='pass') )
 {
     if(!($_SESSION['adminStatus']))
     header("Location: http://localhost/webproject/speed-volunteer/login/");
@@ -174,16 +162,6 @@ include_once 'includes/header.php';
 // include menu bar
 include_once 'includes/nav.php';
 ?>
-
-
-
-
-
-
-
-
-
-
 
 <main id="main">
 

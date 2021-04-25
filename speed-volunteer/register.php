@@ -21,7 +21,7 @@ include_once 'includes/nav.php';
     <br/>
     <div class="register-form">
         <br>
-        <h2>Register Form</h2>
+        <h2>Application Form</h2>
         <form action="../handlingRegister.php" method="post"  name="register_form" >
             <div class="form-detail">
                 <label>Name</label>

@@ -36,10 +36,6 @@ include_once 'includes/nav.php';
                                 <label for="password">password</label>
                                 <input type="text" id="password" name="password" ><br>
 
-                                <?php
-                                if (isset($msg))
-                                echo $msg;
-                                ?>
                                 <input type="submit" value="submit" style="margin-top: 5px">
 
 

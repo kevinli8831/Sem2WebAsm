@@ -43,7 +43,52 @@
 
 
           <li><a href="<?php echo BASEURL;?>/register/">Register</a></li>
-             <li><a href="<?php echo BASEURL;?>/login/">Login</a></li>
+
+          <?php
+
+          if(empty($_SESSION['adminStatus']))
+              echo "
+          <li><a href=\"http://localhost/webproject/speed-volunteer/login/\">Login</a></li>
+          ";
+          else
+
+
+
+          if(isset($_SESSION['adminStatus']))
+          {
+              if($_SESSION['adminStatus']===false){
+                  echo "
+          <li><a href=\"http://localhost/webproject/speed-volunteer/login/\">Login</a></li>
+          ";
+              }
+
+              if ($_SESSION['adminStatus']===true) {
+
+
+                  echo "
+          <li><a href=\"http://localhost/webproject/speed-volunteer/\" >LoginOut</a></li>
+          ";
+
+              }
+          }
+
+
+//      if ((empty($_SESSION['adminStatus']))  ){
+//              echo "
+//          <li><a href=\"http://localhost/webproject/speed-volunteer/login/\">Login</a></li>
+//          ";
+//      }
+//     else{
+//
+//          echo "
+//          <li><a href=\"http://localhost/webproject/speed-volunteer/\">LoginOut</a></li>
+//          ";
+//      }
+
+
+
+          ?>
+
 
              
   
@@ -57,3 +102,4 @@
 
   </div>
 </header><!-- End Header -->
+
