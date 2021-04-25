@@ -67,7 +67,7 @@ if(mysqli_query($conn,$sql)) {
 )";
 
     if (mysqli_query($conn, $sql)) {
-        mysqli_query($conn, $sql);
+
         echo "SUcessfully create table userinformation";
     } else {
         echo "Error creating table:" . mysqli_error($conn);
@@ -82,7 +82,7 @@ id INT(255) PRIMARY KEY AUTO_INCREMENT,
 )";
 
     if (mysqli_query($conn, $sql)) {
-        mysqli_query($conn, $sql);
+
         echo "SUcessfully create table event";
     } else {
         echo "Error creating table:" . mysqli_error($conn);
@@ -95,7 +95,7 @@ id INT(255) PRIMARY KEY AUTO_INCREMENT,
   activites VARCHAR (255) NOT NULL
 )";
     if (mysqli_query($conn, $sql)) {
-        mysqli_query($conn, $sql);
+
         echo "SUcessfully create table history";
     } else {
         echo "Error creating table:" . mysqli_error($conn);
