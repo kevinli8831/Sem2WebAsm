@@ -1,4 +1,25 @@
 <?php
+// include header
+include_once 'includes/header.php';
+?>
+
+<title>About Us | <?php echo SITE_TITLE;?></title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+
+<?php
+// include menu bar
+include_once 'includes/nav.php';
+?>
+<?php
+
+
+
+
+
+
+
 $name =$_POST['name'];
 $gender =$_POST['gender'];
 $age =$_POST['age'];
@@ -31,7 +52,6 @@ echo "Suceesfull connected";
 
 
 
-
 $sql="CREATE DATABASE speedVolunteer";
 if(mysqli_query($conn,$sql)) {
     echo "Database created successfully";
@@ -39,7 +59,7 @@ if(mysqli_query($conn,$sql)) {
     $conn = mysqli_connect($servername, $username, $password, $dbname);
 
     $sql = "CREATE TABLE userinformation(
-name VARCHAR(255) NOT NULL,
+  name VARCHAR(255) NOT NULL,
   gender CHAR(1) NOT NULL,
   age INT(3) NOT NULL,
   phone INT(8) NOT NULL PRIMARY KEY,
@@ -111,18 +131,18 @@ id INT(255) PRIMARY KEY AUTO_INCREMENT,
 
 }
 
-
-
 $dbname="speedVolunteer";
 $conn=mysqli_connect($servername,$username,$password,$dbname);
 
 $sql="INSERT INTO userinformation (name, gender, age, phone, email)VALUES('$name', '$gender','$age','$Phone','$email')";
 
-if(mysqli_query($conn,$sql)){
+if(mysqli_query($conn,$sql))
+{
     echo "Insert sucessfully";
 }else{
     echo "Error Insert data:" . mysqli_error($conn);
 }
+
 $templistOfGame = implode(" 、 ", $listOfGame);
 
 $sql="INSERT INTO history(memberName,activites)VALUES('$name','$templistOfGame')";
@@ -133,18 +153,17 @@ if(mysqli_query($conn,$sql)){
     echo "Error Insert data:" . mysqli_error($conn);
 }
 
+?>
 
+<main>
+<div style="text-align: center;padding-top: 300px;padding-bottom: 300px">
+    <div>Register successful</div>
+    <a href="<?php echo BASEURL;?>">Back To Homepage</a>
+</div>
 
-//echo $name;
-//echo $gender;
-//echo $age;
-//echo $Phone;
-//echo $email;
-//$N = count($listOfGame);
-//$temp=json_encode($listOfGame);
-//$cars_together = implode(", ", $listOfGame);
-//echo $cars_together;
-
+</main>
+</body>
+</html>
 
 
 

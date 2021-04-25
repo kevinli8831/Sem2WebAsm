@@ -1,4 +1,3 @@
-
 <?php
 
 session_start();
@@ -72,9 +71,11 @@ include_once 'includes/nav.php';
             </div>
     </div>
     </form>
+
     <h1><?php if(isset($_SESSION['login_msg']))
         echo $_SESSION['login_msg'];
-         ?></h1>
+         ?>
+    </h1>
     <?php
     // include footer
     include_once 'includes/footer.php';
