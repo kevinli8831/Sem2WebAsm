@@ -93,7 +93,7 @@
             <div class="col-md-6 col-sm-6 col-xs-12">
               <div class="form contact-form">
                 <?php
-                  if(isset($_POST['contact_form'])){
+                  if($_POST['contact_form']){
                     $name = $_POST['name'];
                     $email = $_POST['email'];
                     $subject = $_POST['subject'];
