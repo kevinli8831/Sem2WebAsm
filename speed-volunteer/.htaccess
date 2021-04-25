@@ -57,6 +57,7 @@ RewriteRule ^contact-us/$ contact-us.php
 RewriteRule ^contact-us$ contact-us.php
 
 RewriteRule ^login/$ login.php
+RewriteRule ^/login/$ login.php
 RewriteRule ^login$ login.php
 
 RewriteRule ^admin/$ admin.php

@@ -27,13 +27,15 @@
         <li class="drop-down"><a href="<?php echo BASEURL;?>/welling-for-youths/">Welling for Youths</a>
           <ul>
             <li><a href="<?php echo BASEURL;?>/joyful-tutors-training-courses/">Joyful Tutors training courses</a></li>
-            <li><a href="<?php echo BASEURL;?>/elderly-thought/">Elderly thought</a></li>
+              <li><a href="<?php echo BASEURL;?>/life-education/">Life education</a></li>
+              <li><a href="<?php echo BASEURL;?>/what-is-dementia/">What is dementia</a></li>
           </ul>
         </li>
         <li class="drop-down"><a href="<?php echo BASEURL;?>/welling-and-activities-for-elders/">Welling & Activities for Elders</a>
           <ul>
-            <li><a href="<?php echo BASEURL;?>/what-is-dementia/">What is dementia</a></li>
-            <li><a href="<?php echo BASEURL;?>/life-education/">Life education</a></li>
+
+              <li><a href="<?php echo BASEURL;?>/elderly-thought/">Elderly thought</a></li>
+
             <li><a href="<?php echo BASEURL;?>/elderly-boxing-class/">Elderly boxing class</a></li>
           </ul>
         </li>
@@ -41,7 +43,7 @@
 
 
 
-             <li><a href="<?php echo BASEURL;?>/login/">LoginTemp</a></li>
+             <li><a href="<?php echo BASEURL;?>/login/">Login</a></li>
 
              
   
