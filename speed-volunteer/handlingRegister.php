@@ -114,7 +114,7 @@ VALUES('Andy Ng','M','20','12544262','Andyng@gmail.com')
     if (mysqli_query($conn, $sql)) {
         echo "Insert sucessfully userinformation";
     } else {
-        echo "Error Insert data:" . mysqli_error($conn);
+        echo "Error Insert userinformation:" . mysqli_error($conn);
     }
 
 
@@ -128,7 +128,7 @@ VALUES('Andy Ng','M','20','12544262','Andyng@gmail.com')
     if (mysqli_query($conn, $sql)) {
         echo "Insert sucessfully history";
     } else {
-        echo "Error Insert data:" . mysqli_error($conn);
+        echo "Error Insert history:" . mysqli_error($conn);
     }
     $sql = "INSERT INTO event (activitesname,games)VALUES('Self-management camp','Camp site activities, Meal cooking, Campfire')
 ,('Independence camp','Adventure activities, Meal cooking, Self-sharing')
@@ -143,7 +143,7 @@ VALUES('Andy Ng','M','20','12544262','Andyng@gmail.com')
     if (mysqli_query($conn, $sql)) {
         echo "Insert sucessfully event";
     } else {
-        echo "Error Insert data:" . mysqli_error($conn);
+        echo "Error Insert event:" . mysqli_error($conn);
     }
 
 }
