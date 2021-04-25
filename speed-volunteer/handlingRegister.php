@@ -101,6 +101,23 @@ id INT(255) PRIMARY KEY AUTO_INCREMENT,
         echo "Error creating table:" . mysqli_error($conn);
     }
 
+    $sql = "INSERT INTO userinformation (name,gender,age,phone,email)
+VALUES('Andy Ng','M','20','12544262','Andyng@gmail.com')
+,('Benson Leung','M','22','56413421','BL123@yahoo.com.hk')
+,('Cathy Wong','F','40','54762314','Cathy@gmail.com')
+,('Kevin Kwok','M','45','75844523','KKwok@gmail.com')
+,('Felix Yu','M','67','68231233','Felixyu@yahoo.com.hk')
+,('Ken Tsang','M','10','93141241','KenT@hotmail.com')
+,('Eric Wong','M','30','61324145','Eric67@yahoo.com.hk')";
+
+
+    if (mysqli_query($conn, $sql)) {
+        echo "Insert sucessfully event";
+    } else {
+        echo "Error Insert data:" . mysqli_error($conn);
+    }
+
+
     $sql = "INSERT INTO history (memberName,activites)VALUES('Andy Ng','Self-management camp 、 Overnight training camp')
 ,('Benson Leung','Independence camp'),('Cathy Wong','Self-confidence training camp 、 Overnight training camp')
 ,('Kevin Kwok','Self-confidence training camp 、 Overnight training camp')
