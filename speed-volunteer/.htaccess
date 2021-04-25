@@ -55,3 +55,13 @@ RewriteRule ^elderly-boxing-class$ elderly-boxing-class.php
 
 RewriteRule ^contact-us/$ contact-us.php
 RewriteRule ^contact-us$ contact-us.php
+
+RewriteRule ^login/$ login.php
+RewriteRule ^login$ login.php
+
+RewriteRule ^admin/$ admin.php
+RewriteRule ^admin$ admin.php
+
+RewriteRule ^regiser/$ regiser.php
+RewriteRule ^regiser$ regiser.php
+
