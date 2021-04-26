@@ -48,7 +48,6 @@ try{
     <h1 >
         <center>
             <b style="text-align: center">The event</b>
-<!--            <img src="--><?php //echo BASEURL;?><!--/assets/img/icons8-print-64.png" onclick="printJS('printJS-table', 'html')" style="cursor: pointer;">-->
             <img src="<?php echo BASEURL;?>/assets/img/icons8-print-64.png" onclick="printJS({printable: 'printJS-table', type: 'html', header: 'Event',targetStyle
 : 'text-align:left' })" style="cursor: pointer;">
 

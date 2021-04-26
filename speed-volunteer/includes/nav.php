@@ -74,17 +74,6 @@
           }
 
 
-//      if ((empty($_SESSION['adminStatus']))  ){
-//              echo "
-//          <li><a href=\"http://localhost/webproject/speed-volunteer/login/\">Login</a></li>
-//          ";
-//      }
-//     else{
-//
-//          echo "
-//          <li><a href=\"http://localhost/webproject/speed-volunteer/\">LoginOut</a></li>
-//          ";
-//      }
 
 
 
@@ -103,4 +92,11 @@
 
   </div>
 </header><!-- End Header -->
+<style>
+    @media only screen and (max-width: 1624px) {
+        .fixed-top{
+           height:115px !important;
+        }
+    }
+</style>
 

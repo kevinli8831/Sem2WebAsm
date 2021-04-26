@@ -94,13 +94,13 @@ session_start();
             <div class="col-md-6 col-sm-6 col-xs-12">
               <div class="form contact-form">
                 <?php
-                  if($_POST['contact_form']){
+                  if(isset($_POST['contact_form'])){
                     $name = $_POST['name'];
                     $email = $_POST['email'];
                     $subject = $_POST['subject'];
                     $message = $_POST['message'];
 
-                    if(mail('info@speedvolunteer.com', $email, $subject, $message)){
+                    if(mail('kevinli8831@gmail.com', $email, $subject, $message)){
                       echo '<div class="sent-message">Your message has been sent. Thank you!</div>';
                     }
                   }

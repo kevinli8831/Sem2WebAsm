@@ -175,7 +175,7 @@ if(mysqli_query($conn,$sql)){
 <main>
 <div style="text-align: center;padding-top: 300px;padding-bottom: 300px">
     <div>Register successful</div>
-    <a href="<?php echo BASEURL;?>">Back To Homepage</a>
+    <a href="<?php echo BASEURL;?>/index.php/">Back To Homepage</a>
 </div>
 
 </main>
