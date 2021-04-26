@@ -4,7 +4,7 @@ session_start();
 include_once 'includes/header.php';
 ?>
 
-<title>About Us | <?php echo SITE_TITLE;?></title>
+<title>Event | <?php echo SITE_TITLE;?></title>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">

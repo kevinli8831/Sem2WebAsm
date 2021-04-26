@@ -151,7 +151,7 @@ if(($_SESSION['admin']==='admin') && ($_SESSION['password']==='pass')){
 include_once 'includes/header.php';
 ?>
 
-<title>Home | <?php echo SITE_TITLE;?></title>
+<title>Admin | <?php echo SITE_TITLE;?></title>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">

@@ -6,7 +6,7 @@ session_start();
 include_once 'includes/header.php';
 ?>
 
-<title>Home | <?php echo SITE_TITLE;?></title>
+<title>Login | <?php echo SITE_TITLE;?></title>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">

@@ -7,7 +7,7 @@ include_once 'includes/header.php';
 ?>
 
 <head>
-    <title>Contact Us | <?php echo SITE_TITLE;?></title>
+    <title>Application | <?php echo SITE_TITLE;?></title>
     <link rel="stylesheet" href="style.css" />
 </head>
 

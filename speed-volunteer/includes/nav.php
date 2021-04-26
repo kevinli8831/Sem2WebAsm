@@ -42,7 +42,7 @@
         <li><a href="<?php echo BASEURL;?>/contact-us/">Contact / Support us</a></li>
 
 
-          <li><a href="<?php echo BASEURL;?>/register/">Register</a></li>
+          <li><a href="<?php echo BASEURL;?>/register/">Application</a></li>
 
           <?php
 
