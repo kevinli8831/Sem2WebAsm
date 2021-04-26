@@ -64,11 +64,12 @@
 
               if ($_SESSION['adminStatus']===true) {
 
-
                   echo "
-          <li><a href=\"http://localhost/webproject/speed-volunteer/\" >LoginOut</a></li>
+          <li><a href=\"../logout.php\" tite=\"Logout\">LoginOut</a></li>
           ";
-
+                  echo "
+                 <li><a href=\"http://localhost/webproject/speed-volunteer/admin/\">Admin</a></li>
+          ";
               }
           }
 

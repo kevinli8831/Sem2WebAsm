@@ -1,5 +1,7 @@
 <?php
 session_start();
-$_SESSION['adminStatus']=false;
+
+unset($_SESSION['adminStatus']);
+header("Location:index.php");
 
 ?>
