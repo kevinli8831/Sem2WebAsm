@@ -112,3 +112,4 @@
 
 <!-- Template Main JS File -->
 <script src="<?php echo BASEURL;?>/assets/js/main.js"></script>
+<script src="<?php echo BASEURL;?>/assets/js/print.min.js"></script>

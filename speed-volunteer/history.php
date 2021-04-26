@@ -166,12 +166,16 @@ try{
 <div style="padding-top: 100px;padding-bottom: 100px">
 
 
-    <h1><center><b>The record of user information</b></center></h1>
+    <h1><center>
+            <b>The record of user information</b>
+            <img src="<?php echo BASEURL;?>/assets/img/icons8-print-64.png" onclick="printJS('printJS-table', 'html')" style="cursor: pointer;">
+
+        </center></h1>
 
 <div style="display: flex;justify-content: center">
 
 
-    <table border="1">
+    <table border="1" id="printJS-table">
       <tr>
       	<th> id</th>
         <th> memberName </th>

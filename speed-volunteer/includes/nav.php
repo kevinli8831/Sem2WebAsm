@@ -8,7 +8,7 @@
 
     <nav class="nav-menu d-none d-lg-block">
       <ul>
-        <li><a href="<?php echo BASEURL;?>">Home</a></li>
+        <li><a href="<?php echo BASEURL;?>/index.php/">Home</a></li>
         <li><a href="<?php echo BASEURL;?>/about-us/">About Us</a></li>
         <li class="drop-down"><a href="<?php echo BASEURL;?>/new-services-and-courses/">New Services & Courses</a>
           <ul>

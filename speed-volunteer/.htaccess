@@ -77,3 +77,7 @@ RewriteRule ^history$ history.php
 
 RewriteRule ^event/$ event.php
 RewriteRule ^event$ event.php
+
+RewriteRule ^logout/$ logout.php
+RewriteRule ^logout$ logout.php
+RewriteRule ^/logout$ logout.php
